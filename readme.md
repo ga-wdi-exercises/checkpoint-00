@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var food = "pizza"
 ```
 
 ---
@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-answer goes here
+jonas = 1
 ```
 
 ---
@@ -49,7 +49,9 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for 
+
+}
 ```
 
 ---
@@ -60,7 +62,7 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+alfred = 2
 ```
 
 ---
@@ -72,7 +74,7 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
+git is a actively maintained open world source, it becomes extremely useful when working on projects making corrections or collaborating with other individuals. Github is a depository where users use git and actively share and work with other peoples code.
 
 ```
 
@@ -83,7 +85,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+A fork is when you cope the depository (from github) When you clone the document you automatically create a local copy provided by the developer.
 
 ```
 
@@ -96,7 +98,7 @@ answer goes here
 What does every HTML file need to be recognized as such? In other words, what do you need in each HTML file for it to be valid HTML?
 
 ```
-answer goes here
+boiler plate. <!DOCTYPE html> and <html> </html>
 ```
 
 ---
@@ -106,7 +108,8 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+
+<Link rel="stylesheet" type="text/css" href="css/hardstyle.css">
 ```
 
 ---
@@ -135,7 +138,7 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+<style> #dog-resume </style>
 ```
 
 ---
@@ -145,5 +148,5 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+<style> .skillz  </style>
 ```
