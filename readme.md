@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var food = "pizza"
 ```
 
 ---
@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-answer goes here
+names[0]
 ```
 
 ---
@@ -49,7 +49,9 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for (i = 0; i > names.length; i++) {
+  console.log(names[i]);
+}
 ```
 
 ---
@@ -60,7 +62,7 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+clown.enemy.minions[1]
 ```
 
 ---
@@ -72,8 +74,10 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
-
+Git is version control software. It tracks changes in a project and solves the problem of having to make multiple
+versions of a file or folder whenever changes are made. Multiple people can contribute to a project without overwriting
+each other, and changes can be made to older "versions" without affecting newer code that was "saved" later. "git" is the
+tracking software that is used locally, github is a remote version of git.
 ```
 
 ---
@@ -83,7 +87,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+forking is copying a remote repo to your github account, making another remote repo. Cloning is copying a remote repo to make a new local repo.
 
 ```
 
@@ -96,7 +100,20 @@ answer goes here
 What does every HTML file need to be recognized as such? In other words, what do you need in each HTML file for it to be valid HTML?
 
 ```
-answer goes here
+a doctype declaration, and an html tag. The skeleton of an html file looks like this:
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+
+<body>
+</body>
+
+</html>
+
+I guess also you need a .html extension for editors like Atom to recognize it
+
 ```
 
 ---
@@ -106,7 +123,8 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+<link rel="stylesheet" href="hardstyle.css" type="text/css"
+
 ```
 
 ---
@@ -135,7 +153,10 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+#dog-resume {
+  font-family: Helvetica;
+}
+
 ```
 
 ---
@@ -145,5 +166,8 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+ul > li {
+  color: red;
+}
+
 ```
