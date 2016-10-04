@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var food = "pizza";
 ```
 
 ---
@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-answer goes here
+names[0];
 ```
 
 ---
@@ -49,7 +49,9 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for (var i = 0; i < names.length; i++) {
+  console.log("Hello" + " " + names[i]);
+}
 ```
 
 ---
@@ -60,7 +62,7 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+clown.enemy.minions[1];
 ```
 
 ---
@@ -72,7 +74,8 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
+Git is a version control software that allows us to revisit previous version (commits) of our code that we've saved in a respository. It solves the problem of having to save multiple draft files of our codes.
+The difference between git and github is that github is a service that hosts git remote repositories.
 
 ```
 
@@ -83,7 +86,8 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+Fork creates a copy of a repo on Github under a different user account.
+Clone locally creates a copy of a remote repo.
 
 ```
 
@@ -96,7 +100,10 @@ answer goes here
 What does every HTML file need to be recognized as such? In other words, what do you need in each HTML file for it to be valid HTML?
 
 ```
-answer goes here
+A doctype declaration:
+<DOCTYPE html></html>
+
+And a head and body tag.
 ```
 
 ---
@@ -106,7 +113,7 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+<link rel="stylesheet" type="text/css" href="hardstyle.css">
 ```
 
 ---
@@ -135,7 +142,9 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+#dog-resume {
+  height: 800px;
+}
 ```
 
 ---
@@ -145,5 +154,7 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+ul li {
+  color: red;
+}
 ```
