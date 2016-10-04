@@ -156,5 +156,7 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+.li {
+  color: red;
+}
 ```
