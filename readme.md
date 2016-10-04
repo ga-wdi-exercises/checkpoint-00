@@ -10,9 +10,7 @@ For the following quiz, there will be a series of questions or directions follow
 
 Create a variable and store the string "pizza" in it
 
-```js
-answer goes here
-```
+var = "pizza"
 
 ---
 
@@ -38,9 +36,7 @@ var clown = {
 
 Access the value `"Jonas"` out of the `names` array:
 
-```js
-answer goes here
-```
+names[0]
 
 ---
 
@@ -48,9 +44,13 @@ answer goes here
 
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
-```js
-answer goes here
-```
+var names = ["Jonas", "Inigo Montoya", "Slim Shady", "Mr. Robot"];
+var sayHello = function() {
+  for(var i=0; i<=names.length; i++) {
+    sayHello();
+  }
+}
+console.log('hello');
 
 ---
 
@@ -59,9 +59,7 @@ answer goes here
 
 Access the value `"Alfred"` out of the `clown` object
 
-```js
-answer goes here
-```
+clown['Alfred']
 
 ---
 
@@ -71,10 +69,9 @@ answer goes here
 
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
-```
-answer goes here
+Git is a form of version control. It solves the problem of having to create multiple versions of a file to track changes and makes these  changes easier to identify.
 
-```
+Git is the tool used to create and edit files, Github is a remote domain that hosts repositories of files.
 
 ---
 
@@ -82,10 +79,7 @@ answer goes here
 
 What is the difference between a fork and a clone?
 
-```
-answer goes here
-
-```
+Forking means to create a copy of the files in a repository, to your github account's repository so that you can edit your version of the code . Cloning means to transfer the repository's files from the remote location to the local server, thus making a local copy.
 
 ---
 
@@ -95,19 +89,26 @@ answer goes here
 
 What does every HTML file need to be recognized as such? In other words, what do you need in each HTML file for it to be valid HTML?
 
-```
-answer goes here
-```
+in every html file we need to do write the following to make it a valid html
 
+<html>
+<!DOCTYPE html>
+</html>
+
+we do this as format so that the browser recognizes that we are running the html file, it it just standard formality
 ---
 
 ### Question 8
 
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
-```
-answer goes here
-```
+it goes the head of the document before before the body
+<html>
+<!DOCTYPE html>
+<header></header>
+<link href='hardstyle.css' rel='stylesheet'>
+<body></body>
+</html>
 
 ---
 
@@ -134,9 +135,10 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to an element with an id of `dog-resume`:
 
 
-```
-answer goes here
-```
+div {
+  padding: 0 auto;
+}
+
 
 ---
 
@@ -144,6 +146,6 @@ answer goes here
 
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
-```
-answer goes here
-```
+li {
+  display: inline;
+}
