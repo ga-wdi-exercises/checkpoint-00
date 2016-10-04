@@ -10,9 +10,7 @@ For the following quiz, there will be a series of questions or directions follow
 
 Create a variable and store the string "pizza" in it
 
-```js
-answer goes here
-```
+var food = "pizza";
 
 ---
 
@@ -38,19 +36,17 @@ var clown = {
 
 Access the value `"Jonas"` out of the `names` array:
 
-```js
-answer goes here
-```
 
+names[0]
 ---
 
 ### Question 3
 
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
-```js
-answer goes here
-```
+for (i = 0; i = name.length) i ++){
+  console.log ("hey!")
+}
 
 ---
 
@@ -59,10 +55,8 @@ answer goes here
 
 Access the value `"Alfred"` out of the `clown` object
 
-```js
-answer goes here
-```
 
+clown[enemy][minions][Alfred]
 ---
 
 ## Git & GitHub
@@ -71,10 +65,8 @@ answer goes here
 
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
-```
-answer goes here
-
-```
+Git is a way to save multiple documents at different stages.
+Github is where we collaborate and save our repositories through using git.
 
 ---
 
@@ -82,10 +74,8 @@ answer goes here
 
 What is the difference between a fork and a clone?
 
-```
-answer goes here
-
-```
+a fork is how we create a copy of the repo in our personal github account.
+clone is used to create a copy of the repo locally, where we can edit the repo.
 
 ---
 
@@ -95,9 +85,12 @@ answer goes here
 
 What does every HTML file need to be recognized as such? In other words, what do you need in each HTML file for it to be valid HTML?
 
-```
-answer goes here
-```
+we need to use the "boiler plate".
+<DOCTYPE! html>
+<html>
+<title></title>
+<body></body>
+</html>
 
 ---
 
@@ -105,9 +98,7 @@ answer goes here
 
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
-```
-answer goes here
-```
+<link ref="stylesheet" type="text/css" href="hardstyle.css">
 
 ---
 
@@ -134,9 +125,9 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to an element with an id of `dog-resume`:
 
 
-```
-answer goes here
-```
+#dog-resume {
+  color: red;
+}
 
 ---
 
@@ -144,6 +135,6 @@ answer goes here
 
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
-```
-answer goes here
-```
+ul > li{
+  text-decoration: none;
+}
