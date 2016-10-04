@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var favoriteFood = "pizza";
 ```
 
 ---
@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-answer goes here
+var person = names[0];
 ```
 
 ---
@@ -49,7 +49,9 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for (i = 0; i < names.length; i++) {
+  console.log('Hello');
+}
 ```
 
 ---
@@ -60,7 +62,7 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+var person = clown.enemy.minions[1]
 ```
 
 ---
@@ -72,7 +74,7 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
+'git' is a CLI command for GitHub while GitHub is an open source, online repository.
 
 ```
 
@@ -83,7 +85,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+Fork creates your own repo from the owner's repo. Cloning creates your own local copy of the owner's repo on your computer.
 
 ```
 
@@ -96,7 +98,14 @@ answer goes here
 What does every HTML file need to be recognized as such? In other words, what do you need in each HTML file for it to be valid HTML?
 
 ```
-answer goes here
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title</title>
+</head>
+<body> Content of document
+</body>
+</html>
 ```
 
 ---
@@ -106,7 +115,9 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+<head>
+<link rel="stylesheet" type="text/css" href="hardstyle.css">
+</head>
 ```
 
 ---
@@ -135,7 +146,9 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+#dog-resume {
+  /* css style goes here */
+}
 ```
 
 ---
@@ -145,5 +158,7 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+ul > li {
+  /* css style goes here */
+}
 ```
