@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var x = "pizza"
 ```
 
 ---
@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-answer goes here
+names[0]
 ```
 
 ---
@@ -49,7 +49,9 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for (i = 0; i < names.length; i++) {
+    text += names[i] + "<br>";
+}
 ```
 
 ---
@@ -72,7 +74,7 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
+Git is a command line tool that allows users to create, edit and push a local repository. Git is simply the command line tool whereas github is a web service that allows users to host and access repositories.
 
 ```
 
@@ -83,7 +85,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+A fork creates a remote repository under your account while a clone copies the files in a repository to your local computer.
 
 ```
 
@@ -96,7 +98,7 @@ answer goes here
 What does every HTML file need to be recognized as such? In other words, what do you need in each HTML file for it to be valid HTML?
 
 ```
-answer goes here
+A doctype tag <!DOCTYPE html>
 ```
 
 ---
@@ -106,7 +108,7 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+ <link rel="stylesheet" type="text/css" href="hardstyle.css">
 ```
 
 ---
@@ -135,7 +137,8 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+#dog-resume {
+}
 ```
 
 ---
@@ -145,5 +148,7 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+ul li {
+
+}
 ```
