@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var food ="pizza"
 ```
 
 ---
@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-answer goes here
+var names [0]
 ```
 
 ---
@@ -49,8 +49,8 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
-```
+for(var i=0; x<(name.length); i++)
+console.log('Hello' 'name');
 
 ---
 
@@ -59,8 +59,9 @@ answer goes here
 
 Access the value `"Alfred"` out of the `clown` object
 
-```js
-answer goes here
+```
+
+
 ```
 
 ---
@@ -72,7 +73,8 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
+git is a version control
+github is a web-based Git repository hosting service.
 
 ```
 
@@ -83,7 +85,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+copy to your own page
 
 ```
 
@@ -96,7 +98,7 @@ answer goes here
 What does every HTML file need to be recognized as such? In other words, what do you need in each HTML file for it to be valid HTML?
 
 ```
-answer goes here
+So, the website might interpret incorrect.
 ```
 
 ---
@@ -133,7 +135,11 @@ answer goes here
 
 Write a CSS selector-rule that will select and apply styling to an element with an id of `dog-resume`:
 
+document.getElementById= "dog-resume"
 
+
+
+  }>
 ```
 answer goes here
 ```
