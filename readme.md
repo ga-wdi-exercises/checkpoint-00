@@ -11,7 +11,9 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+
+var x = "pizza";
+
 ```
 
 ---
@@ -38,8 +40,9 @@ var clown = {
 
 Access the value `"Jonas"` out of the `names` array:
 
-```js
-answer goes here
+```
+names[0];
+
 ```
 
 ---
@@ -48,8 +51,11 @@ answer goes here
 
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
-```js
-answer goes here
+```
+for (i = 0; i < names.length; i++) {
+  console.log(names[i]);
+}
+
 ```
 
 ---
@@ -59,8 +65,9 @@ answer goes here
 
 Access the value `"Alfred"` out of the `clown` object
 
-```js
-answer goes here
+```
+clown.enemy.minions[1];
+
 ```
 
 ---
@@ -72,7 +79,7 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
+Git is a version control content system. Github is a proprietary software that uses the principles of Git.
 
 ```
 
@@ -83,7 +90,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+A fork moves a remote repo to another remote repo...A clone moves a remote repo to a local machine.
 
 ```
 
@@ -96,7 +103,8 @@ answer goes here
 What does every HTML file need to be recognized as such? In other words, what do you need in each HTML file for it to be valid HTML?
 
 ```
-answer goes here
+The Doctype declaration
+
 ```
 
 ---
@@ -106,7 +114,9 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+
+<link rel="stylesheet" href="hardstyle.css">
+
 ```
 
 ---
@@ -135,7 +145,10 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+#dog-resume {
+  //CSS Goes Here...
+}
+
 ```
 
 ---
@@ -145,5 +158,8 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+ul li {
+  //CSS Goes Here
+}
+
 ```
