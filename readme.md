@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var food = pizza;
 ```
 
 ---
@@ -38,8 +38,10 @@ var clown = {
 
 Access the value `"Jonas"` out of the `names` array:
 
-```js
-answer goes here
+```
+I understand the value jonas is inside an object and that to get a value out of an array I could use the .push method, but I wouldn't know how to answer this question correctly
+
+
 ```
 
 ---
@@ -49,7 +51,10 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for (i=0; i<names.length ;i++){
+  var name = [0]
+  console.log("Hello", name);
+}
 ```
 
 ---
@@ -60,7 +65,7 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+
 ```
 
 ---
@@ -72,7 +77,8 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
+"Git is a version control software that lives within our local OS that we can use to keep track of a repository. It solves the problem of having an unclear or ineffective way of maintaining a version control. Also it always to go back in time and have access to files that we might have changed "
+"Github is a remote version control system, while git is a local version control"
 
 ```
 
@@ -83,7 +89,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+when you fork a repository, you are cloning a copy of someone else's repository into your account. When you clone a repository you are copying a remote repository into your local repository.
 
 ```
 
@@ -96,7 +102,7 @@ answer goes here
 What does every HTML file need to be recognized as such? In other words, what do you need in each HTML file for it to be valid HTML?
 
 ```
-answer goes here
+a <!DOCTYPE html> to tell the browser what version of html is being used.
 ```
 
 ---
@@ -106,7 +112,7 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+<link href="hardstyle.css" rel=stylesheet type="text/css">
 ```
 
 ---
@@ -135,7 +141,9 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+#dog-resume {
+ css-rule
+}
 ```
 
 ---
@@ -145,5 +153,10 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+document.getElementByTag('li').className="dogSkill"
+
+.dogSkill {
+  css-rule
+}
+.. I forgot the selector to grab the child element for <ul>
 ```
