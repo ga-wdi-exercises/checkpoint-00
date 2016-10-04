@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var food = "pizza";
 ```
 
 ---
@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-answer goes here
+names[0];
 ```
 
 ---
@@ -49,7 +49,9 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for (i = 0; i < names.length; i++){
+  console.log("hello" names[i]);
+}
 ```
 
 ---
@@ -60,7 +62,7 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+clown['enemy']['minions'][1];
 ```
 
 ---
@@ -72,7 +74,9 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
+git is version control software that solves the issue of tracking code changes
+git = the actual software
+github = a website with useful features to manage and track git repositories
 
 ```
 
@@ -83,7 +87,8 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+fork = copies a repo to your online github repo
+clone = copies the repo from your github repo to a local directory (note: automatically initializes a repo and automatically sets source origin)
 
 ```
 
@@ -96,7 +101,8 @@ answer goes here
 What does every HTML file need to be recognized as such? In other words, what do you need in each HTML file for it to be valid HTML?
 
 ```
-answer goes here
+<!DOCTYPE html>
+also needs opening and closing html tags
 ```
 
 ---
@@ -106,7 +112,7 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+<link rel="stylesheet" type="text/css" href="hardstyle.css">
 ```
 
 ---
@@ -135,7 +141,9 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+#dog-resume {
+  float: left;
+}
 ```
 
 ---
@@ -145,5 +153,7 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+ul > li {
+  color: #aabbcc;
+}
 ```
