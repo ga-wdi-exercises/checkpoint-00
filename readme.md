@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-var = "pizza"
+var food = "pizza"
 ```
 
 ---
@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-name[0]
+names = [0]
 ```
 
 ---
@@ -49,6 +49,7 @@ name[0]
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
+var i = ["Jonas", "Inigo Montoya", "Slim Shady", "Mr. Robot"]
 for (i = 0; i < names.length; i++) {
   console.log("hello");
 }
@@ -74,7 +75,7 @@ clown.enemy.minions[1]
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
+Git is a tool developers use to experiment when coding w/o breaking any already working codes made by others, and github is a website made for sharing codes amongst one another.
 
 ```
 
@@ -85,7 +86,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-fork is taking repository and making it your own content in your account. clone is when you create repository into local account.
+forking is when you copy a repository from one GitHub account to your own. Cloning is taking that repository and making it your own by copying it to your local machine.
 
 ```
 
@@ -147,7 +148,9 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-#dog resume
+#dog resume {
+
+}
 ```
 
 ---
@@ -157,5 +160,7 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-<ul,li>
+ul, li {
+
+}
 ```
