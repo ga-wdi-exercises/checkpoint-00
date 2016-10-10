@@ -10,9 +10,7 @@ For the following quiz, there will be a series of questions or directions follow
 
 Create a variable and store the string "pizza" in it
 
-```js
-answer goes here
-```
+var food = 'pizza';
 
 ---
 
@@ -38,18 +36,17 @@ var clown = {
 
 Access the value `"Jonas"` out of the `names` array:
 
-```js
-answer goes here
-```
+var names[0];
 
 ---
 ### Question 3
 
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
-```js
-answer goes here
-```
+var names = ["Jonas", "Inigo Montoya", "Slim Shady", "Mr. Robot"];
+ for(i=0; i>0, i.length ++) {
+   console.log('Hello');
+ }
 
 ---
 
@@ -58,26 +55,24 @@ answer goes here
 
 Access the value `"Alfred"` out of the `clown` object
 
-```js
-answer goes here
-```
+var clown {enemy,minions}[1];
 
 ---
 ### Question 5
 
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
-```js
-answer goes here
-```
+var clown
 
 ---
 ### Question 6
 Write a function that takes an array as an argument and returns the array's first value
 
-```js
-answer goes here
-```
+var sports = ['football', 'tennis', 'hockey', 'soccer'];
+dangerousSport= push(){['cricket']
+
+    }  
+dangerousSport([0]);
 ---
 
 ## Git & GitHub
@@ -86,10 +81,7 @@ answer goes here
 
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
-```
-answer goes here
-
-```
+Github is an online hosting network for remote repositories. Git is the program that is used in the terminal of one's computer to communicate with the remote repositories by storing and pushing data. It is also used to create, save and push data to local repositories.
 
 ---
 
@@ -97,10 +89,8 @@ answer goes here
 
 What is the difference between a fork and a clone?
 
-```
-answer goes here
-
-```
+Forking is coping data from one remote repo to your version of the remote repo.
+Cloning is making a copy of the remote repo to your local server (computer).
 
 ---
 
@@ -112,9 +102,7 @@ answer goes here
 
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
-```
-answer goes here
-```
+<link href="hardstyle.css" type="text/css" rel="stylesheet">
 
 ---
 
@@ -141,9 +129,9 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to an element with an id of `dog-resume`:
 
 
-```
-answer goes here
-```
+#dog-resume {
+  color: #764987;
+}
 
 ---
 
@@ -151,6 +139,6 @@ answer goes here
 
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
-```
-answer goes here
-```
+ul li {
+  display: inline-block;
+}
