@@ -10,8 +10,8 @@ For the following quiz, there will be a series of questions or directions follow
 
 Create a variable and store the string "pizza" in it
 
-```js
-answer goes here
+```
+var = "pizza"
 ```
 
 ---
@@ -38,8 +38,8 @@ var clown = {
 
 Access the value `"Jonas"` out of the `names` array:
 
-```js
-answer goes here
+```
+var ['jonas']
 ```
 
 ---
@@ -47,8 +47,10 @@ answer goes here
 
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
-```js
-answer goes here
+```
+for(var i=0; 1 < names, i++){
+  console.log('hello', names)
+}
 ```
 
 ---
@@ -58,8 +60,8 @@ answer goes here
 
 Access the value `"Alfred"` out of the `clown` object
 
-```js
-answer goes here
+```
+var ('clown', 'enemy', 'minions'[Alfred])
 ```
 
 ---
@@ -67,18 +69,22 @@ answer goes here
 
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
-```js
-answer goes here
+```
+clown = "heroes"
+console.log(clown);
 ```
 
 ---
 ### Question 6
 Write a function that takes an array as an argument and returns the array's first value
 
-```js
-answer goes here
 ```
----
+var minions=['robin', 'alfred']{
+  console.log(minions);
+  return(0);
+}
+```
+--
 
 ## Git & GitHub
 
@@ -87,7 +93,7 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
+Git is a software we use locally to edit/save repositories and interact with Github. Github is an online source used to collaborate and share repos with others.
 
 ```
 
@@ -98,7 +104,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+A fork is how we get a copy of a repo on our github account. Cloning is how we access/save the repo locally so that we can make changes to it.
 
 ```
 
@@ -113,7 +119,8 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+No. You could, but I think you would have to manually change other things in order for it to actually work.
+
 ```
 
 ---
@@ -142,7 +149,10 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+#dog-resume{
+  text-align: right;
+}
+
 ```
 
 ---
@@ -152,5 +162,7 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+ul li{
+  font-weight: 200;
+}
 ```
