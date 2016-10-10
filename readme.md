@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var food = "pizza";
 ```
 
 ---
@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-answer goes here
+names[0];
 ```
 
 ---
@@ -48,7 +48,9 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for (i = 0; i < names.length; i++){
+  console.log(names[i]);
+}
 ```
 
 ---
@@ -59,7 +61,7 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+clown['enemy'][minions][1];
 ```
 
 ---
@@ -68,7 +70,7 @@ answer goes here
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
 ```js
-answer goes here
+clown.age = 72;
 ```
 
 ---
@@ -76,7 +78,9 @@ answer goes here
 Write a function that takes an array as an argument and returns the array's first value
 
 ```js
-answer goes here
+function firstValue(array) {
+  return array[0];
+}
 ```
 ---
 
@@ -88,7 +92,7 @@ What is Git, what problem does it solve? What is the difference between `git` an
 
 ```
 answer goes here
-
+Git is version control software used to track changes and/or collaborate on code.  Git is the software, and github is a platform with some added features used to interact with and collaborate on code.
 ```
 
 ---
@@ -99,7 +103,7 @@ What is the difference between a fork and a clone?
 
 ```
 answer goes here
-
+fork copies code into your repository, while clone takes that code from github servers and copies it onto your local machine.
 ```
 
 ---
@@ -113,7 +117,7 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+<link rel="stylesheet" href="hardstyle.css">
 ```
 
 ---
@@ -142,7 +146,9 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+#dog-resume {
+  color: rgba(20,20,20,0.5);
+}
 ```
 
 ---
@@ -152,5 +158,7 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+ul li {
+  text-align: center;
+}
 ```
