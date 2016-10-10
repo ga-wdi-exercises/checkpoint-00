@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var food = "pizza";
 ```
 
 ---
@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-answer goes here
+names[0];
 ```
 
 ---
@@ -48,7 +48,10 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for (var i = 0; i < names.length; i += 1) {
+   console.log("Hello " + names[i]);
+};
+
 ```
 
 ---
@@ -59,7 +62,7 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+clown.enemy.minions[1];
 ```
 
 ---
@@ -68,7 +71,7 @@ answer goes here
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
 ```js
-answer goes here
+clown.scary = "Yes";
 ```
 
 ---
@@ -76,7 +79,15 @@ answer goes here
 Write a function that takes an array as an argument and returns the array's first value
 
 ```js
-answer goes here
+var todoList = [];
+function rememberTo(task) {
+  todoList.push(task);
+}
+
+rememberTo("pay rent");
+
+todoList[0];
+
 ```
 ---
 
@@ -87,8 +98,9 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
+Git is a version control system that is used in software development. You can save multiple iterations of code so that you are protected. If you made an update to a live site and it's broken, you can simply roll back to a commit version in the past.
 
+Github is a website that hosts git repositories. This enables live collaboration for teams among other features.
 ```
 
 ---
@@ -98,8 +110,9 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+Forking makes an exact copy of the original codebase under your own repository
 
+Cloning copies this newly created repository to your local machine
 ```
 
 ---
@@ -113,7 +126,7 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+<link rel="stylesheet" type="text/css" href="hardstyle.css">
 ```
 
 ---
@@ -142,7 +155,9 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+#dog-resume {
+  text-align: center;
+}
 ```
 
 ---
@@ -152,5 +167,8 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+ul.li {
+  color: red;
+}
+
 ```
