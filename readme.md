@@ -12,6 +12,7 @@ Create a variable and store the string "pizza" in it
 
 ```js
 answer goes here
+var food = "pizza"
 ```
 
 ---
@@ -39,7 +40,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-answer goes here
+names[0];
 ```
 
 ---
@@ -48,7 +49,9 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for (i=0;i<names.length;i++) {
+  console.log("hello, " + names[i] + ".")}
+
 ```
 
 ---
@@ -59,7 +62,7 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+clown.enemy.minions[1];
 ```
 
 ---
@@ -68,7 +71,9 @@ answer goes here
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
 ```js
-answer goes here
+
+clown.nosecolor = "red"
+
 ```
 
 ---
@@ -76,7 +81,10 @@ answer goes here
 Write a function that takes an array as an argument and returns the array's first value
 
 ```js
-answer goes here
+function arrayTaker([x]) {
+  return arrayTaker[0];
+}
+
 ```
 ---
 
@@ -87,8 +95,10 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
-
+Git is version control software. It tracks changes in a project and solves the problem of having to make multiple
+versions of a file or folder whenever changes are made. Multiple people can contribute to a project without overwriting
+each other, and changes can be made to older "versions" without affecting newer code that was "saved" later. "git" is the
+tracking software that is used locally, github is a remote version of git.
 ```
 
 ---
@@ -98,7 +108,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+forking is copying a remote repo to your github account, making another remote repo. Cloning is copying a remote repo to make a new local repo.
 
 ```
 
@@ -113,7 +123,8 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+<link rel="stylesheet" href="hardstyle.css" type="text/css">
+
 ```
 
 ---
@@ -142,7 +153,10 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+#dog-resume {
+  color: white;
+}
+
 ```
 
 ---
@@ -152,5 +166,8 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+ul li {
+  font-size: 1.2em;
+}
+
 ```
