@@ -57,7 +57,6 @@ for (i = 0; i < names.length; i++) {
 
 ---
 
-
 ### Question 4
 
 Access the value `"Alfred"` out of the `clown` object
@@ -68,9 +67,39 @@ clown.enemy.minions[1]
 
 ---
 
+### Question 5
+
+Set a new property on the object stored in the variable clown. Make it anything you want!
+
+```js
+clown.enemy.minions["spiderman"];
+// var pets = {
+//   name: ,
+//   pet: true,
+//   animals: ["bird", "puppy", "cat", "frog";]
+//   walker: {
+//   owner :"Josh",
+//   indoors: "false",
+//   others: ["Brit", "Linda"]
+//  }
+// }; sorry i started out by creating a whole new array.
+```
+
+### Question 6
+
+Write a function that takes an array as an argument and returns the array's first value
+
+```js
+var fruits = [strawberries, peaches, mangoes]; {
+  // console.log(0);
+  function firstValue () {
+  return = [0];  
+}
+```
+
 ## Git & GitHub
 
-### Question 5
+### Question 7
 
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
