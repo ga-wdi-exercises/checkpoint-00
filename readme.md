@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+food = "pizza"
 ```
 
 ---
@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-answer goes here
+Jonas[]
 ```
 
 ---
@@ -48,7 +48,9 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for(var i = 0; i < names.length; i++){
+console.log("hello ", names[i])
+}
 ```
 
 ---
@@ -58,8 +60,8 @@ answer goes here
 
 Access the value `"Alfred"` out of the `clown` object
 
-```js
-answer goes here
+```
+clown.enemy.minions[1]
 ```
 
 ---
@@ -67,8 +69,8 @@ answer goes here
 
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
-```js
-answer goes here
+```var key = "joker"
+
 ```
 
 ---
@@ -76,7 +78,9 @@ answer goes here
 Write a function that takes an array as an argument and returns the array's first value
 
 ```js
-answer goes here
+function = ["bananas","strawberries","kiwis"]
+return("bananas".length)
+
 ```
 ---
 
@@ -87,7 +91,7 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
+git is version control software that allows us to keep track of changes in a code base. Github is an online service that allows developers/organizations to maintain their code remotely.
 
 ```
 
@@ -98,7 +102,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+when you fork something you are essentially coping that repository essentially an (edible version) and when you clone you are placing that edit version repository back into github.
 
 ```
 
@@ -113,7 +117,7 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+<link rel="stylesheet" type="text/css" href="hardstyle.css">
 ```
 
 ---
@@ -142,7 +146,10 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+<style> #dog-resume {
+  color: blue;
+}
+</style>
 ```
 
 ---
@@ -152,5 +159,8 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+<style>
+ul > li
+font-decoration: none;
+</style>
 ```
