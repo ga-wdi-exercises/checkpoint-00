@@ -10,9 +10,7 @@ For the following quiz, there will be a series of questions or directions follow
 
 Create a variable and store the string "pizza" in it
 
-```js
-answer goes here
-```
+var food = "pizza"
 
 ---
 
@@ -39,7 +37,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-answer goes here
+names[0];
 ```
 
 ---
@@ -48,7 +46,10 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for(var i=0; i< names.length; i++){
+  console.log(names[i]);
+}
+
 ```
 
 ---
@@ -59,7 +60,7 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+clown.enemy.minions[1]
 ```
 
 ---
@@ -68,7 +69,7 @@ answer goes here
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
 ```js
-answer goes here
+clown.help = "clown examples are terrifying";
 ```
 
 ---
@@ -76,7 +77,11 @@ answer goes here
 Write a function that takes an array as an argument and returns the array's first value
 
 ```js
-answer goes here
+function hoorayJS(){
+    var i = 0;
+    return arguments[i];
+  }
+}
 ```
 ---
 
@@ -87,7 +92,7 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
+Git is a version control system that allows users to keep track of changes. Git hub is a remote repository which stores copies of local git changes and allows for cross-user collaboration.
 
 ```
 
@@ -98,7 +103,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+A fork creates a copy, linked from another programmer's repository, and changes to this code can be pushed back into the master version if desired. Cloning is a download, saving a new copy of the files, with no connection to the origin master.
 
 ```
 
@@ -113,7 +118,7 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+<link rel="stylesheet" href="hardstyle.css">
 ```
 
 ---
@@ -142,7 +147,10 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+#dog-resume{
+  color: #ffffff;
+  font-family: calibri;
+}
 ```
 
 ---
@@ -152,5 +160,7 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+ul>li {
+  font-size: 18px;
+}
 ```
