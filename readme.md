@@ -10,7 +10,9 @@ For the following quiz, there will be a series of questions or directions follow
 
 Create a variable and store the string "pizza" in it
 
+
 var food = 'pizza';
+
 
 ---
 
@@ -44,6 +46,7 @@ var names[0];
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 var names = ["Jonas", "Inigo Montoya", "Slim Shady", "Mr. Robot"];
+
  for(i=0; i>0, i.length ++) {
    console.log('Hello');
  }
@@ -62,11 +65,13 @@ var clown {enemy,minions}[1];
 
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
+
 var clown
 
 ---
 ### Question 6
 Write a function that takes an array as an argument and returns the array's first value
+
 
 var sports = ['football', 'tennis', 'hockey', 'soccer'];
 dangerousSport= push(){['cricket']
@@ -79,9 +84,11 @@ dangerousSport([0]);
 
 ### Question 7
 
+
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 Github is an online hosting network for remote repositories. Git is the program that is used in the terminal of one's computer to communicate with the remote repositories by storing and pushing data. It is also used to create, save and push data to local repositories.
+
 
 ---
 
@@ -138,6 +145,7 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 ### Question 11
 
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
+
 
 ul li {
   display: inline-block;
