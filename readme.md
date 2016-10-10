@@ -60,10 +60,10 @@ console.log('Hello' 'name');
 Access the value `"Alfred"` out of the `clown` object
 
 ```
-
+clown.enemy.minions[1]
 
 ```
-
+clown.enemy.minions[1]
 ---
 
 ## Git & GitHub
@@ -74,10 +74,8 @@ What is Git, what problem does it solve? What is the difference between `git` an
 
 ```
 git is a version control
+
 github is a web-based Git repository hosting service.
-
-```
-
 ---
 
 ### Question 6
@@ -85,7 +83,7 @@ github is a web-based Git repository hosting service.
 What is the difference between a fork and a clone?
 
 ```
-copy to your own page
+Fork is copy to your own page and work off on your own local directory. Clone is you clone your local repository to the remote.
 
 ```
 
@@ -98,7 +96,7 @@ copy to your own page
 What does every HTML file need to be recognized as such? In other words, what do you need in each HTML file for it to be valid HTML?
 
 ```
-So, the website might interpret incorrect.
+<!DOCTYPE html>
 ```
 
 ---
@@ -108,7 +106,7 @@ So, the website might interpret incorrect.
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+ <link rel="stylesheet" type="text/css" href="style.css">
 ```
 
 ---
@@ -135,19 +133,16 @@ answer goes here
 
 Write a CSS selector-rule that will select and apply styling to an element with an id of `dog-resume`:
 
-document.getElementById= "dog-resume"
-
+document.getElementById= "dog-resume
 
 
   }>
 ```
-answer goes here
-```
-
----
-
+#dog-resume
+ul li
+```---
 ### Question 10
-
+ul li
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
