@@ -62,7 +62,7 @@ for (var i = 0; i < names.length; i++) {
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+clown.enemy.minions[1];
 ```
 
 ---
