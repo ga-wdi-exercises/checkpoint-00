@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var = pizza
 ```
 
 ---
@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-answer goes here
+names[0]
 ```
 
 ---
@@ -48,7 +48,13 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+var sayHello = function() {
+  for (var i = 0; i < names.length; i++) {
+    names[i]= "Hello, " + names[i] +"."
+  }
+  console.log(names)
+}
+sayHello();
 ```
 
 ---
