@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var food = "pizza"
 ```
 
 ---
@@ -39,8 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-answer goes here
-```
+var names [0];```
 
 ---
 ### Question 3
@@ -48,8 +47,11 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
-```
+for (i = 0, i < 4, i ++)
+  console.log('Hello');```
+
+// Objects in an array are numbered starting at 0. Initiate at 0, up to 4, by 1.
+
 
 ---
 
@@ -59,8 +61,7 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
-```
+var clowns = minions [1];```
 
 ---
 ### Question 5
@@ -68,8 +69,7 @@ answer goes here
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
 ```js
-answer goes here
-```
+var clown = new Clown ("James")```
 
 ---
 ### Question 6
@@ -87,8 +87,7 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
-
+Git is a version control system, whereas Github is the web-based application that hosts git files.
 ```
 
 ---
@@ -98,8 +97,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
-
+A fork is the function that takes place in Github to being making changes to a repo. A clone is the local copy of the fork.
 ```
 
 ---
@@ -113,8 +111,7 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
-```
+<link rel="stylesheet" type="text/css" href="hardstyle.css">```
 
 ---
 
@@ -142,8 +139,9 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
-```
+.dog-resume {
+  color: red;
+  }```
 
 ---
 
@@ -152,5 +150,6 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
-```
+ul li {
+  text-align: center;
+  }```
