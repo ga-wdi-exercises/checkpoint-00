@@ -74,7 +74,7 @@ clown[enemy][minions][1];
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
 ```
-clown[name] = 'The Joker'
+clown['age'] = 'Unknown'
 
 ```
 
