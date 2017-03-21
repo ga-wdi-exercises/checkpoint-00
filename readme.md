@@ -52,7 +52,7 @@ Write a for loop such that you say hello(using `console.log`) to each name in th
 ```js
 answer goes here
 for (var i = 0; i < names.length; i++) {
-  console.log("Hello" + " " + i);
+  console.log("Hello" + " " + names[i]);
 }
 ```
 
@@ -75,7 +75,7 @@ Set a new property on the object stored in the variable clown. Make it anything 
 
 ```js
 answer goes here
-clown["name"] = "Penguin";
+clown["enemy"] = "Batman";
 ```
 
 ---
