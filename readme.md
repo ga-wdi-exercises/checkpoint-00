@@ -50,7 +50,7 @@ Write a for loop such that you say hello(using `console.log`) to each name in th
 ```js
 
 for (var i = 0; i < names.length; i++) {
-  console("Hello " + names[i]);
+  console.log("Hello " + names[i]);
 }
 ```
 
