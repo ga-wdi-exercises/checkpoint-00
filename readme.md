@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-names ['Jonas']
+ names[0];
 ```
 
 ---
@@ -48,11 +48,18 @@ names ['Jonas']
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-for (var i = 0; i < names.length; i++) {
-  names[i]
 
-  console.log(hello (i));
+function helloShouter() {
+  for (var i = 0; i < names.length; i++)
+  {
+  console.log('Hello ' +(names [i]) );
+
+  }
+
 }
+helloShouter ();
+
+
 ```
 
 ---
@@ -63,7 +70,7 @@ for (var i = 0; i < names.length; i++) {
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-names [8];
+clown.enemy.minions[1];
 ```
 
 ---
@@ -73,15 +80,17 @@ Set a new property on the object stored in the variable clown. Make it anything 
 
 ```js
 
-```{color: [white, blue]};
+``` clown.push [{sleep : "none"}];
 
 ---
 ### Question 6
 Write a function that takes an array as an argument and returns the array's first value
 
 ```js
-function myFunction (1,2,3,4) {
-  return [0];
+
+var myFunction = function () {
+
+}
 
 }
 
@@ -163,5 +172,5 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-li 
+li
 ```
