@@ -65,7 +65,7 @@ Access the value `"Alfred"` out of the `clown` object
 
 ```js
 answer goes here
-clown["minions"][1];
+clown.enemy["minions"][1];
 ```
 
 ---
