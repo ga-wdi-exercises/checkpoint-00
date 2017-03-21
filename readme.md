@@ -52,12 +52,12 @@ Write a for loop such that you say hello(using `console.log`) to each name in th
 function helloShouter() {
   for (var i = 0; i < names.length; i++)
   {
-  console.log('Hello ' +(names [i]) );
+  console.log('Hello ' + names[i]);
 
   }
 
 }
-helloShouter ();
+helloShouter();
 
 
 ```
@@ -79,8 +79,9 @@ clown.enemy.minions[1];
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
 ```js
+clown.hairColor = ['red', 'blue'];
 
-``` clown.push [{sleep : "none"}];
+```
 
 ---
 ### Question 6
@@ -88,12 +89,12 @@ Write a function that takes an array as an argument and returns the array's firs
 
 ```js
 
-var myFunction = function () {
+function whatEver (arr) {
+ return (arr[0]);
 
 }
 
-}
-
+whatEver ('blue', 'yellow');
 
 ```
 ---
@@ -105,7 +106,7 @@ var myFunction = function () {
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-//Git is a verson control software that helps with keeping track of your project. GitHub is the dropbox for git.
+//Git is a version control that helps with keeping track of your project. GitHub is the dropbox for git.
 
 ```
 
@@ -162,9 +163,8 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
-```
 #dog-resume
+```
 ---
 
 ### Question 11
@@ -172,5 +172,7 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-li
+ul li {
+
+}
 ```
