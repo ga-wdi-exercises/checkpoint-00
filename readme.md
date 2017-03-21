@@ -12,6 +12,7 @@ Create a variable and store the string "pizza" in it
 
 ```js
 answer goes here
+var food = "pizza";
 ```
 
 ---
@@ -40,6 +41,7 @@ Access the value `"Jonas"` out of the `names` array:
 
 ```js
 answer goes here
+names[0];
 ```
 
 ---
@@ -49,6 +51,9 @@ Write a for loop such that you say hello(using `console.log`) to each name in th
 
 ```js
 answer goes here
+for (var i = 0; i < names.length; i++) {
+  console.log("Hello" + " " + names[i]);
+}
 ```
 
 ---
@@ -60,6 +65,7 @@ Access the value `"Alfred"` out of the `clown` object
 
 ```js
 answer goes here
+clown.enemy["minions"][1];
 ```
 
 ---
@@ -69,6 +75,7 @@ Set a new property on the object stored in the variable clown. Make it anything 
 
 ```js
 answer goes here
+clown["enemy"] = "Batman";
 ```
 
 ---
@@ -77,6 +84,9 @@ Write a function that takes an array as an argument and returns the array's firs
 
 ```js
 answer goes here
+var firstValue = function(array) {
+  return array[0];
+}
 ```
 ---
 
@@ -88,6 +98,8 @@ What is Git, what problem does it solve? What is the difference between `git` an
 
 ```
 answer goes here
+Git is a version control application that allows developers to save changes and review changes at different stages of development.
+GitHub works like DropBox. You can share your scripts and a team can manipulate and add new versions.
 
 ```
 
@@ -99,6 +111,8 @@ What is the difference between a fork and a clone?
 
 ```
 answer goes here
+a fork is when you bring a repository into your GitHub acc.
+a Fork is when you bring a repo into your local system.
 
 ```
 
@@ -114,6 +128,7 @@ How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
 answer goes here
+<link rel="stylesheet" type="text/css" href="hardstyle.css">
 ```
 
 ---
@@ -143,6 +158,9 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 ```
 answer goes here
+# dog-resume {
+  background-color: green;
+}
 ```
 
 ---
@@ -153,4 +171,7 @@ Write a CSS selector-rule that will select and apply styling to every `<li>` ins
 
 ```
 answer goes here
+li {
+  color: red
+}
 ```
