@@ -171,4 +171,6 @@ li {
   color: red;
 }
 
+Overall I had medium to high comfort level! Maybe 7/10 with 10 being the most comfortable
+
 ```
