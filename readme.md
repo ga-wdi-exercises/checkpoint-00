@@ -79,7 +79,9 @@ clown.favorite_foods = ["cheese"];
 Write a function that takes an array as an argument and returns the array's first value
 
 ```js
-answer goes here
+function firstValue(arr) {
+  return arr[0];
+}
 ```
 ---
 
@@ -90,7 +92,7 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
+It was a languange create for version control in software.  Git is the languange, GitHub is an organization the stores repos for customers.
 
 ```
 
@@ -101,7 +103,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+When you fork a repo, you are copying a repository from someone else.  Clone is when you copy a remote repository to your local machine.
 
 ```
 
@@ -116,7 +118,8 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+A style link at the head of your index.html folder. I couldn't remember the exact syntax so I had to look it up.
+<link rel="stylesheet" href="styles.css">
 ```
 
 ---
@@ -145,7 +148,9 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+#dog-resume {
+  color: red;
+}
 ```
 
 ---
@@ -155,5 +160,7 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+ul li {
+  list-style-type: none;
+}
 ```
