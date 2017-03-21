@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var mystring= 'pizza'
 ```
 
 ---
@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-answer goes here
+names['Jonas']
 ```
 
 ---
@@ -48,7 +48,11 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+var names
+  for (var name=[[0] [1],[2],[3]]){  
+    console.log('Hello')}
+
+    Spent forever trying to look this up
 ```
 
 ---
@@ -59,7 +63,7 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+Clown[enemy minions alfred]
 ```
 
 ---
