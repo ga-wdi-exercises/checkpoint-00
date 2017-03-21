@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+'pizza'
 ```
 
 ---
@@ -87,8 +87,7 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
-
+Git is version control program. Git allows to track changes of multiple files, keeping track of parallel versions and also allows to compare one to the other. Easy to find out what has changed from one version to the next without opening each file. Difference between git and github is git only making changes locally, editing files and repositories on my own computer, however, github can share all the works with other people and review work changes among one another. Simply, github is like Dropbox.
 ```
 
 ---
@@ -98,7 +97,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+Fork allows to copy a version of one specific repo (someone else's) to my own Github account repository. Clone allows to edit the code where you copied through Fork, by using Clone, its asking Github to copy of the remote repo and ends up in my own directory.
 
 ```
 
@@ -113,7 +112,9 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+<head>
+<link rel="stylesheet" type="text/css" href="hardstyle.css">
+</head>
 ```
 
 ---
@@ -142,7 +143,7 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+#dog-resume {     }
 ```
 
 ---
@@ -152,5 +153,5 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+li {    }
 ```
