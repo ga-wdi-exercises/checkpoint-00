@@ -48,7 +48,10 @@ names[0];
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+
+for (var i = 0; i < names.length; i++) {
+  console("Hello " + names[i]);
+}
 ```
 
 ---
