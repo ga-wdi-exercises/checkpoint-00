@@ -71,7 +71,7 @@ clown.enemy.minions[1];
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
 ```js
-answer goes here
+clown.favorite_foods = ["cheese"];
 ```
 
 ---
