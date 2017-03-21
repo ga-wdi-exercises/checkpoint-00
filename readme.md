@@ -164,3 +164,6 @@ ul li {
   list-style-type: none;
 }
 ```
+### Assignment Comments
+
+I felt overall very comfortable with this assignment. The only times that I felt like I needed to look up anything was to verify syntax.
