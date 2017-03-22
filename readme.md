@@ -78,7 +78,7 @@ clown.hungry = 'YES';
 Write a function that takes an array as an argument and returns the array's first value
 
 ```js
-function(arr) {
+var firstValue = function(arr) {
   return arr[0];
 }
 ```
@@ -102,7 +102,7 @@ Git is a way to manage version control while working on a program. It documents 
 What is the difference between a fork and a clone?
 
 ```
-a fork copies a version of someone elses remote repository to your repository on github. A clone copies that fork to a local repository on your computer
+a fork copies a version of someone else's remote repository to one you can edit separately yourself on github. A clone makes a copy of a remote repository to your computer.
 
 ```
 
@@ -159,6 +159,6 @@ Write a CSS selector-rule that will select and apply styling to every `<li>` ins
 
 ```
 li {
-  
+
 }
 ```
