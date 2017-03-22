@@ -10,8 +10,7 @@ For the following quiz, there will be a series of questions or directions follow
 
 Create a variable and store the string "pizza" in it
 
-```js
-answer goes here
+```var food = “pizza” ;
 ```
 
 ---
@@ -38,8 +37,7 @@ var clown = {
 
 Access the value `"Jonas"` out of the `names` array:
 
-```js
-answer goes here
+```var firstArrayItem = myValues[0] ;
 ```
 
 ---
@@ -47,8 +45,12 @@ answer goes here
 
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
-```js
-answer goes here
+```Var names = ???
+for (????)
+{console.log(‘hello’);
+
+for (initialization; ???? ; finalExpression)
+{ //‘hello.” } ;
 ```
 
 ---
@@ -58,8 +60,11 @@ answer goes here
 
 Access the value `"Alfred"` out of the `clown` object
 
-```js
-answer goes here
+```Names = false
+Clown = false
+Evil = false
+Minion : true
+If not ‘Robin’ , Alfred
 ```
 
 ---
@@ -87,7 +92,7 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
+Git is a quality control system that is used by developers in order to accurately track changes to a program/application.
 
 ```
 
@@ -98,7 +103,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+A fork allows a user to make a copy of a code or codes from a shared site to their profile on that site, a clone allows a user to copy a complete program to their local drive/computer.
 
 ```
 
@@ -113,7 +118,7 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+< link rel=“stylesheet”  type=“text/css”  href=“hardstyle” >
 ```
 
 ---
@@ -142,7 +147,10 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+a.dog-resume {
+
+Background-color: yellow;
+
 ```
 
 ---
@@ -152,5 +160,5 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+a.ul.select
 ```
