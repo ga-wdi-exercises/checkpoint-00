@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-var = pizza
+var food = "pizza"
 ```
 
 ---
@@ -48,11 +48,10 @@ names[0]
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-var sayHello = function() {
+function sayHello() {
   for (var i = 0; i < names.length; i++) {
-    names[i]= "Hello, " + names[i] +"."
+    console.log("Hello, " + names[i]);
   }
-  console.log(names)
 }
 sayHello();
 ```
@@ -65,7 +64,7 @@ sayHello();
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+clown.enemy.minions[1]
 ```
 
 ---
@@ -74,7 +73,7 @@ answer goes here
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
 ```js
-answer goes here
+clown.food = 'chicken';
 ```
 
 ---
@@ -82,7 +81,9 @@ answer goes here
 Write a function that takes an array as an argument and returns the array's first value
 
 ```js
-answer goes here
+function firstValue(array) {
+  return array[0];
+}
 ```
 ---
 
@@ -93,8 +94,8 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
-
+Git is a tool that tracks changes for multiple files. Also, it keeps track of what has been changed line by line that it makes easy to compare one version to the other.
+Github is a platform that manage Git repositories in the cloud. Git is a tool to keep track of local users' work using local repositories, and Github tracks changes for multiple files created by multiple users using remote repositories. Github makes users easy to share their code and collaborate with others.
 ```
 
 ---
@@ -104,8 +105,8 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
-
+Fork copies someone else's remote repository to your Github repository.
+Clone copies your Github repository to your local repository.
 ```
 
 ---
@@ -119,7 +120,7 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+<link rel="stylesheet" type="text/css" href="hardstyle.css">
 ```
 
 ---
@@ -148,7 +149,7 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+#dog-resume
 ```
 
 ---
@@ -158,5 +159,5 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+ul > li
 ```
