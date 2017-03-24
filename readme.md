@@ -11,7 +11,7 @@ For the following quiz, there will be a series of questions or directions follow
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var = "pizza"
 ```
 
 ---
@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array:
 
 ```js
-answer goes here
+names = [0]
 ```
 
 ---
@@ -48,7 +48,13 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for (var i = 0; i <names.length; i++) {
+
+"hello" + console.log(names[i]); 
+	
+} /* reference: codecademy.com */
+
+
 ```
 
 ---
@@ -59,7 +65,7 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+clown.enemy.minions[1] Jon/w3schools.com
 ```
 
 ---
@@ -68,7 +74,7 @@ answer goes here
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
 ```js
-answer goes here
+nickname: "Nightrider" w3schools.com
 ```
 
 ---
@@ -76,7 +82,11 @@ answer goes here
 Write a function that takes an array as an argument and returns the array's first value
 
 ```js
-answer goes here
+
+var firstValue = function (jelly) {
+	jelly[0];
+	
+} reference: classmates 
 ```
 ---
 
@@ -87,7 +97,9 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
+Git is where you can upload a copy of your repository /stackoverflow.com
+
+GitHub is a web-based Git or version control repository and Internet hosting service /Wikipedia
 
 ```
 
@@ -98,7 +110,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+forking creates a copy of a documnent to your repo and cloning allows you to download it to your local computer and edit it. 
 
 ```
 
@@ -113,7 +125,7 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+<link href = 'hardstyle.css'>
 ```
 
 ---
@@ -142,7 +154,8 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+#dog-resume { 
+background-color: #000;}
 ```
 
 ---
@@ -152,5 +165,7 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+ul li {
+	color: #fff;
+}
 ```
