@@ -9,11 +9,9 @@ For the following quiz, there will be a series of questions or directions follow
 ### Question 1
 
 Create a variable and store the string "pizza" in it
-
-```js
-answer goes here
-```
-
+////
+var pizza ="This is a pizza"
+////
 ---
 
 >  ***For questions 2-5, use the code below to answer questions 2 through 4.***
@@ -37,19 +35,16 @@ var clown = {
 ### Question 2
 
 Access the value `"Jonas"` out of the `names` array:
-
-```js
-answer goes here
-```
-
+////
+names[0];
+////
 ---
 ### Question 3
 
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
-
-```js
-answer goes here
-```
+////
+for (names = 0; names < 5; names++) {console.log('hello');} //I'll admit, I struggled with this one
+////
 
 ---
 
@@ -57,26 +52,24 @@ answer goes here
 ### Question 4
 
 Access the value `"Alfred"` out of the `clown` object
-
-```js
-answer goes here
 ```
-
+clown.enemy.minions[1]
+```
 ---
 ### Question 5
 
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
-```js
-answer goes here
+```clown.minions = 'Pennywise';
 ```
 
 ---
 ### Question 6
 Write a function that takes an array as an argument and returns the array's first value
 
-```js
-answer goes here
+```var DuckTales = ['Huey', 'Dewie', 'Louie'];
+animals.indexOf('Huey');
+}
 ```
 ---
 
@@ -87,7 +80,7 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-answer goes here
+A git is a repository that stores a set of files as they change over time. This allows groups to create different versions of a project at various points in time. Github is a service that hosts gits on servers for people to share.
 
 ```
 
@@ -98,7 +91,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+A fork is a copy of a repository for the user to make changes and edits. A clone is a local copy of a repo stored on the computer.
 
 ```
 
@@ -113,7 +106,7 @@ answer goes here
 How would you link a css file entitled, `hardstyle.css` in an html file?
 
 ```
-answer goes here
+<link rel="stylesheet" type="text/css" href="hardstyle.css">
 ```
 
 ---
@@ -142,7 +135,9 @@ Write a CSS selector-rule that will select and apply styling to an element with 
 
 
 ```
-answer goes here
+#dog-resume {
+    font-family: sans-serif;
+}
 ```
 
 ---
@@ -152,5 +147,7 @@ answer goes here
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```
-answer goes here
+li.skillz {
+  color:blue;
+}
 ```
