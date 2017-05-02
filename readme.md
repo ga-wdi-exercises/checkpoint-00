@@ -14,7 +14,7 @@ Create a variable and store the string "pizza" in it...
 
 ```js
 // Answer goes here...
-```
+``` var pizzaStorage = "pizza";
 
 ---
 
@@ -40,7 +40,7 @@ Access the value `"Jonas"` out of the `names` array...
 
 ```js
 // Answer goes here...
-```
+```names[0];
 
 ### Question 3
 
@@ -48,7 +48,10 @@ Write a for loop that prints `hello NAME` to the console. `NAME` should be repla
 
 ```js
 // Answer goes here...
-```
+``` for (var i = 0; i < names.length; i++) {
+    console.log(     )
+
+}
 
 ### Question 4
 
@@ -56,7 +59,7 @@ Access the value `"Alfred"` out of the `clown` object...
 
 ```js
 // Answer goes here...
-```
+``` clown.name;
 
 ### Question 5
 
@@ -64,7 +67,7 @@ Set a new property on the object stored in the variable clown. Make it anything 
 
 ```js
 // Answer goes here...
-```
+``` clown.name = "John";
 
 ---
 
@@ -73,7 +76,7 @@ Write a function that takes an array as an argument and returns the array's firs
 
 ```js
 // Answer goes here...
-```
+``` var this = function();
 ---
 
 ## Git & GitHub
@@ -84,7 +87,7 @@ What is Git, what problem does it solve? What is the difference between Git and 
 
 ```
 # Answer goes here...
-```
+``` Git is a hosting service while github allows you to upload your repository.
 
 ---
 
@@ -94,7 +97,7 @@ What is the difference between a fork and a clone?
 
 ```
 # Answer goes here...
-```
+``` A clone is when you copy/paste link to the term to .load the rep to a destination. Forking a repository allows you to freely experiement with the code before you request a pull for a commit.
 
 ---
 
@@ -106,9 +109,9 @@ How would you link a CSS file entitled `hardstyle.css` in an HTML file?
 
 ```html
 <!-- Answer goes here... -->
-```
+``` <link href="css/hardstyle.css" rel="stylesheet" type="text/CSS">
 
----
+---Hi
 
 > **For Questions 10 & 11 use the code example below...**
 
@@ -133,7 +136,7 @@ Write a CSS selector that will apply styling to an element with an id of `dog-re
 
 ```css
 /* Answer goes here... */
-```
+``` document.querySelectory(dog-resume).textContent()
 
 ### Question 11
 
@@ -141,4 +144,8 @@ Write a CSS selector-rule that will select and apply styling to every `<li>` ins
 
 ```css
 /* Answer goes here... */
-```
+``` for (i = 0; i < 5; i++){
+    var liColor = document.createElement('color: red');
+    liColor..className =
+
+}
