@@ -13,7 +13,7 @@ Please reference [this document](https://github.com/ga-dc/wdi16/blob/master/home
 Create a variable and store the string "pizza" in it...
 
 ```js
-// Answer goes here...
+var pan (pizza)
 ```
 
 ---
@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array...
 
 ```js
-// Answer goes here...
+Jonas;
 ```
 
 ### Question 3
@@ -47,7 +47,9 @@ Access the value `"Jonas"` out of the `names` array...
 Write a for loop that prints `hello NAME` to the console. `NAME` should be replaced with a name that appears in the `names` array. Each iteration of the loop should print a different name.
 
 ```js
-// Answer goes here...
+for (i=0; i < names.length; i++) {
+  ("Hello" + name);
+}
 ```
 
 ### Question 4
@@ -55,7 +57,7 @@ Write a for loop that prints `hello NAME` to the console. `NAME` should be repla
 Access the value `"Alfred"` out of the `clown` object...
 
 ```js
-// Answer goes here...
+clown.Alfred;
 ```
 
 ### Question 5
@@ -63,7 +65,11 @@ Access the value `"Alfred"` out of the `clown` object...
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
 ```js
-// Answer goes here...
+var clown = {
+  name: Batman,
+  evil: yes,
+  minions: ["Robin", "Cat Woman"]
+};
 ```
 
 ---
@@ -72,7 +78,7 @@ Set a new property on the object stored in the variable clown. Make it anything 
 Write a function that takes an array as an argument and returns the array's first value...
 
 ```js
-// Answer goes here...
+var abc = ['123', '456', '789']
 ```
 ---
 
@@ -83,7 +89,7 @@ Write a function that takes an array as an argument and returns the array's firs
 What is Git, what problem does it solve? What is the difference between Git and Github?
 
 ```
-# Answer goes here...
+Git is a tool that manages your coding history. Git hub is a web-based service that
 ```
 
 ---
