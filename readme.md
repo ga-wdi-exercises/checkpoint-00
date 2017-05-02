@@ -111,7 +111,7 @@ How would you link a CSS file entitled `hardstyle.css` in an HTML file?
 <!-- Answer goes here... -->
 ``` <link href="css/hardstyle.css" rel="stylesheet" type="text/CSS">
 
----
+---Hi
 
 > **For Questions 10 & 11 use the code example below...**
 
