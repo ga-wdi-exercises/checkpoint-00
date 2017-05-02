@@ -1,0 +1,78 @@
+Question 1
+
+Create a variable and store the string "pizza" in it...
+
+```var pizza = "pizza"; ```
+
+Question 2
+
+Access the value "Jonas" out of the names array...
+
+```names[0]```
+
+Question 3
+
+Write a for loop that prints hello NAME to the console. NAME should be replaced with a name that appears in the names array. Each iteration of the loop should print a different name.
+
+``` for (i=0; i<=names.length; i++) {
+  console.log("Hello " +names[i]);
+};
+```
+
+Question 4
+
+Access the value "Alfred" out of the clown object...
+
+``` clown.enemy.minions[1]; ```
+
+Question 5
+
+Set a new property on the object stored in the variable clown. Make it anything you want!
+
+```var clown = {
+  name: "Joker",
+  evil: true,
+  origin: "Gotham",
+  ...
+  ```
+  Question 6
+
+  Write a function that takes an array as an argument and returns the array's first value...
+
+```var answer = function(array[]){
+  return array[0];
+
+};
+```
+
+Question 8
+
+What is the difference between a fork and a clone?
+
+``` a fork branches off the master into your repository that you can later merge. A clone is just a copy of that repository.```
+
+HTML & CSS
+
+Question 9
+
+How would you link a CSS file entitled hardstyle.css in an HTML file?
+
+```<link href="hardstyle.css" rel="stylesheet" type="text/css"> ```
+
+Question 10
+
+Write a CSS selector that will apply styling to an element with an id of dog-resume...
+
+``` .dog-resume {
+color: white;
+}
+```
+
+Question 11
+
+Write a CSS selector-rule that will select and apply styling to every <li> inside of a <ul>:
+
+```li {
+  font-weight: 800;
+
+}
