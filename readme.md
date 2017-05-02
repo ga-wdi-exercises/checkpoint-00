@@ -13,7 +13,7 @@ Please reference [this document](https://github.com/ga-dc/wdi16/blob/master/home
 Create a variable and store the string "pizza" in it...
 
 ```js
-// Answer goes here...
+var a = "pizza";
 ```
 
 ---
@@ -39,7 +39,8 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array...
 
 ```js
-// Answer goes here...
+names[0];
+
 ```
 
 ### Question 3
@@ -47,7 +48,10 @@ Access the value `"Jonas"` out of the `names` array...
 Write a for loop that prints `hello NAME` to the console. `NAME` should be replaced with a name that appears in the `names` array. Each iteration of the loop should print a different name.
 
 ```js
-// Answer goes here...
+var names = ["Jonas", "Inigo Montoya", "Slim Shady", "Mr. Robot"];
+for (var i = 0; i < arrayLength; i++);
+var t = "Hello" + [i];
+result t;
 ```
 
 ### Question 4
@@ -55,7 +59,7 @@ Write a for loop that prints `hello NAME` to the console. `NAME` should be repla
 Access the value `"Alfred"` out of the `clown` object...
 
 ```js
-// Answer goes here...
+clown.minions;
 ```
 
 ### Question 5
@@ -63,7 +67,7 @@ Access the value `"Alfred"` out of the `clown` object...
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
 ```js
-// Answer goes here...
+clown.general= "assembly";
 ```
 
 ---
@@ -72,7 +76,11 @@ Set a new property on the object stored in the variable clown. Make it anything 
 Write a function that takes an array as an argument and returns the array's first value...
 
 ```js
-// Answer goes here...
+function array(ary, n) {
+  var results = [];
+
+}
+
 ```
 ---
 
@@ -83,7 +91,7 @@ Write a function that takes an array as an argument and returns the array's firs
 What is Git, what problem does it solve? What is the difference between Git and Github?
 
 ```
-# Answer goes here...
+Git is a revision control system, a tool to manage your source code history. GitHub is a hosting service for Git repositories. So they are not the same thing: Git the tool, GitHub the service for projects that use Git
 ```
 
 ---
@@ -93,7 +101,9 @@ What is Git, what problem does it solve? What is the difference between Git and 
 What is the difference between a fork and a clone?
 
 ```
-# Answer goes here...
+When you are Forking a repository you are creating a copy of repository under the GitHub Id. Any changes made to the original original repository will be reflected back to your forked repository. However, if you make any changes to your forked repository you will have to explicitly create a pull request to the original repository. When your pull request is approved by the administrator of the original repository, then your changes will be merged with the existing original code-base. Until then, your changes will be reflected only in the copy you forked. A Clone is where you have proper duplication, and separation between, two versions of a repository. When one repository is amended, the new content must be actively copied to the other repository using a push command. And changes in the other repository are fetched.
+
+
 ```
 
 ---
@@ -105,7 +115,9 @@ What is the difference between a fork and a clone?
 How would you link a CSS file entitled `hardstyle.css` in an HTML file?
 
 ```html
-<!-- Answer goes here... -->
+<head>
+<link rel="stylesheet" type="text/css" href="hardstyle.css">
+</head>
 ```
 
 ---
@@ -132,7 +144,7 @@ Write a CSS selector that will apply styling to an element with an id of `dog-re
 
 
 ```css
-/* Answer goes here... */
+#dog-resume { color: red }
 ```
 
 ### Question 11
