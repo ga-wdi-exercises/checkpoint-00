@@ -13,7 +13,7 @@ Please reference [this document](https://github.com/ga-dc/wdi16/blob/master/home
 Create a variable and store the string "pizza" in it...
 
 ```js
-// Answer goes here...
+var food = 'pizza';
 ```
 
 ---
@@ -29,7 +29,7 @@ var clown = {
   enemy: {
     name: "Batman",
     evil: false,
-    minions: ["Robin", "Alfred"]  
+    minions: ["Robin", "Alfred"]
   }
 };
 ```
@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array...
 
 ```js
-// Answer goes here...
+var jonas = names[0];
 ```
 
 ### Question 3
@@ -47,7 +47,9 @@ Access the value `"Jonas"` out of the `names` array...
 Write a for loop that prints `hello NAME` to the console. `NAME` should be replaced with a name that appears in the `names` array. Each iteration of the loop should print a different name.
 
 ```js
-// Answer goes here...
+for (var i = 0; i < names.length; i++) {
+    console.log(`Hello ${names[i]}`);
+}
 ```
 
 ### Question 4
@@ -55,7 +57,7 @@ Write a for loop that prints `hello NAME` to the console. `NAME` should be repla
 Access the value `"Alfred"` out of the `clown` object...
 
 ```js
-// Answer goes here...
+var alfred = clown.enemy.minions[1];
 ```
 
 ### Question 5
@@ -63,7 +65,8 @@ Access the value `"Alfred"` out of the `clown` object...
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
 ```js
-// Answer goes here...
+clown.hairColor = 'red';
+
 ```
 
 ---
@@ -72,7 +75,9 @@ Set a new property on the object stored in the variable clown. Make it anything 
 Write a function that takes an array as an argument and returns the array's first value...
 
 ```js
-// Answer goes here...
+function returnFirstName(array) {
+  return array[0];
+}
 ```
 ---
 
@@ -83,7 +88,7 @@ Write a function that takes an array as an argument and returns the array's firs
 What is Git, what problem does it solve? What is the difference between Git and Github?
 
 ```
-# Answer goes here...
+Git is a distributed version control system developed by the creator of Linux. It is used to store copies of every developers code as a repository with all of there committed changes since the initiation of the repository. This allows developers to access the full working history of changes to a project without the fear of ruining the master branch. While Git is only accessible from a local machine Github store these repositories on a server allowing multiple developers to access the same projects remotely.
 ```
 
 ---
@@ -93,7 +98,7 @@ What is Git, what problem does it solve? What is the difference between Git and 
 What is the difference between a fork and a clone?
 
 ```
-# Answer goes here...
+Forking is when you make your own copy of a repository on github. This copy of this repository is then saved on your own Github page. Cloning is when the copy is downloaded to your local machine allowing you to edit the file without changing the master branch.
 ```
 
 ---
@@ -105,7 +110,7 @@ What is the difference between a fork and a clone?
 How would you link a CSS file entitled `hardstyle.css` in an HTML file?
 
 ```html
-<!-- Answer goes here... -->
+<link rel="stylesheet" type="text/css" href="hardstyle.css">
 ```
 
 ---
@@ -132,7 +137,7 @@ Write a CSS selector that will apply styling to an element with an id of `dog-re
 
 
 ```css
-/* Answer goes here... */
+#dog-resume {}
 ```
 
 ### Question 11
@@ -140,5 +145,5 @@ Write a CSS selector that will apply styling to an element with an id of `dog-re
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```css
-/* Answer goes here... */
+ul li {}
 ```
