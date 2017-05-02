@@ -147,5 +147,8 @@ document.getElementById("dog-resume").className = "styled";
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```css
-document.getElementsByTagName("li").
+.styled {
+  background-color: yellow;
+}
+document.getElementsByTagName("li").className = "styled";
 ```
