@@ -13,7 +13,7 @@ Please reference [this document](https://github.com/ga-dc/wdi16/blob/master/home
 Create a variable and store the string "pizza" in it...
 
 ```js
-// Answer goes here...
+var box = "pizza";
 ```
 
 ---
@@ -39,7 +39,7 @@ var clown = {
 Access the value `"Jonas"` out of the `names` array...
 
 ```js
-// Answer goes here...
+names[0]
 ```
 
 ### Question 3
@@ -47,7 +47,10 @@ Access the value `"Jonas"` out of the `names` array...
 Write a for loop that prints `hello NAME` to the console. `NAME` should be replaced with a name that appears in the `names` array. Each iteration of the loop should print a different name.
 
 ```js
-// Answer goes here...
+
+for ( i = 0; i < names.length; i += 1); {
+console.log("hello " + names[i]);
+}
 ```
 
 ### Question 4
@@ -55,7 +58,7 @@ Write a for loop that prints `hello NAME` to the console. `NAME` should be repla
 Access the value `"Alfred"` out of the `clown` object...
 
 ```js
-// Answer goes here...
+clown.minions[1];
 ```
 
 ### Question 5
@@ -63,7 +66,7 @@ Access the value `"Alfred"` out of the `clown` object...
 Set a new property on the object stored in the variable clown. Make it anything you want!
 
 ```js
-// Answer goes here...
+clown.ride = "Bat Mobile";
 ```
 
 ---
@@ -72,7 +75,7 @@ Set a new property on the object stored in the variable clown. Make it anything 
 Write a function that takes an array as an argument and returns the array's first value...
 
 ```js
-// Answer goes here...
+names[0]
 ```
 ---
 
@@ -83,7 +86,7 @@ Write a function that takes an array as an argument and returns the array's firs
 What is Git, what problem does it solve? What is the difference between Git and Github?
 
 ```
-# Answer goes here...
+Git is the local repository that exists on the user's computer and allows the user to easily store multiple versions of a document. Github is an online repository that allows the user to both store and share repositories with other users.
 ```
 
 ---
@@ -93,7 +96,7 @@ What is Git, what problem does it solve? What is the difference between Git and 
 What is the difference between a fork and a clone?
 
 ```
-# Answer goes here...
+Clone creates a repository in a new directory. A fork allows the user to take an existing repository and push it to the users personal repository.
 ```
 
 ---
@@ -105,7 +108,7 @@ What is the difference between a fork and a clone?
 How would you link a CSS file entitled `hardstyle.css` in an HTML file?
 
 ```html
-<!-- Answer goes here... -->
+ <link href="hardstyle.css" rel="stylesheet" type="text/css">
 ```
 
 ---
@@ -132,7 +135,11 @@ Write a CSS selector that will apply styling to an element with an id of `dog-re
 
 
 ```css
-/* Answer goes here... */
+.styled {
+  background-color: yellow;
+}
+document.getElementById("dog-resume").className = "styled";
+
 ```
 
 ### Question 11
@@ -140,5 +147,5 @@ Write a CSS selector that will apply styling to an element with an id of `dog-re
 Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
 
 ```css
-/* Answer goes here... */
+document.getElementsByTagName("li").
 ```
